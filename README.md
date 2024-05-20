@@ -1,8 +1,5 @@
 # Project: AI-Powered Financial Chatbot from Boston Consulting Group (BCG)
 
-## Financial Chatbot
-An AI-powered conversational chatbot that analyzes financial data from 10-K and 10-Q reports to provide insights on corporate financial performance.
-
 ## Project Overview
 
 Welcome to the AI-Powered Financial Chatbot project! This initiative, developed by me and the GenAI consulting team at Boston Consulting Group (BCG), aims to leverage generative AI to analyze and interpret financial documents, specifically 10-K and 10-Q reports. Our goal is to build an intelligent chatbot that not only extracts and analyzes key financial data but also provides actionable insights in an interactive and user-friendly manner.
