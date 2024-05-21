@@ -55,9 +55,11 @@ The financial statements have been extracted from SEC'S EDGARS Database: https:/
      df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
      df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
      ```
+<img width="833" alt="Знімок екрана 2024-05-21 о 16 49 22" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/c0e3f0c4-bbdd-4ab8-b884-69bf63107546">
 
 4. **Summarize Findings:**
    - Use markdown cells to document the analysis, trends, and insights.
+<img width="730" alt="Знімок екрана 2024-05-21 о 16 49 31" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/dc9446de-fc7e-47f9-87f9-2de4b62086a9">
 
 ## Step 4: Documentation and Submission
 
