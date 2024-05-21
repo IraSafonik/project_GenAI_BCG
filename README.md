@@ -35,6 +35,11 @@ The primary objective of this project is to create an AI-driven chatbot that can
 - User-Friendly Interface: Ensure the chatbot is intuitive and easy to use for GFC’s diverse client base, regardless of their financial expertise.
 - Scalability: Ensure the solution can handle an increasing number of documents and user queries.
 
+## Technologies Used
+- Python (NumPy, Pandas, scikit-learn, PyTorch, Hugging Face)
+- Streamlit (UI/UX)
+- Cloud Services (AWS/GCP)
+
 ## How to Use
 Setup:
 Clone this repository.
@@ -63,3 +68,52 @@ Extend the chatbot's knowledge base by adding new financial documents or adjusti
 A comprehensive data analysis report, which should include:
 - my findings
 - a summary providing insights into the financial health of the analyzed companies.
+
+## Project Execution
+### Step 1: Data Collection and Preparation
+- Document Gathering: Collect 10-K and 10-Q reports from GFC's database and public sources.
+- Data Parsing: Utilize natural language processing (NLP) to extract relevant sections from these documents.
+- Data Cleaning: Clean and structure the data by handling missing values, normalizing formats, and removing redundancies.
+
+### Step 2: Data Extraction Techniques
+#### Key Sections of 10-K Reports:
+1. Income Statement:
+- Key Data Points: Total revenue, cost of goods sold (COGS), operating expenses, net income.
+- Extraction Technique: Focus on the income statement summary, usually in the early pages. Note year-over-year changes.
+2. Balance Sheet:
+- Key Data Points: Current assets, long-term assets, current liabilities, long-term liabilities, total shareholders’ equity.
+- Extraction Technique: Focus on the balance sheet summary. Compare assets against liabilities to gauge financial health and note significant changes.
+3. Cash Flow Statement:
+- Key Data Points: Cash from operating, investing, and financing activities.
+- Extraction Technique: Analyze the cash flow statement to understand cash generation and expenditure, providing insights into liquidity.
+4. Effective Data Extraction Techniques:
+- Manual Extraction: Manually review documents to understand their layout and locate key information.
+- Highlight and Annotate: Use digital tools to highlight and annotate key figures and notes for easy reference.
+- Excel and Spreadsheet Tools: Input key figures into a spreadsheet for analysis and comparison.
+- Automated Extraction Tools: Use Python libraries like Beautiful Soup or Pandas to automate data extraction from digital documents.
+
+### Step 3: Data Analysis
+- Financial Metrics Extraction: Identify and extract key financial metrics.
+- Trend Analysis: Apply statistical and machine learning models to detect trends.
+- Anomaly Detection: Implement algorithms to detect unusual patterns.
+
+### Step 4: Chatbot Development
+- Natural Language Understanding (NLU): Train the chatbot to interpret user queries related to financial data.
+- Response Generation: Develop mechanisms for the chatbot to generate clear, concise responses with actionable insights.
+- User Interaction Design: Create an intuitive user interface for seamless interaction.
+
+### Step 5: Testing and Validation
+- Unit Testing: Test individual components for correctness.
+- Integration Testing: Ensure all components work together seamlessly.
+- User Acceptance Testing (UAT): Test with end-users to ensure the chatbot meets their needs.
+
+### Step 6: Deployment and Monitoring
+- Deployment: Deploy the chatbot in a production environment for GFC and its clients.
+- Monitoring and Maintenance: Continuously monitor performance and update based on feedback and changing requirements.
+
+### Step 7: Documentation and Training
+- Documentation: Create comprehensive documentation for system architecture, data flows, and usage instructions.
+- Training: Provide training sessions and materials for GFC staff and clients.
+
+##### Here are resource to help me:
+[How to Read a 10-K/10-Q](https://www.sec.gov/oiea/investor-alerts-and-bulletins/how-read-10-k10-q)
