@@ -14,21 +14,20 @@ The primary objective of this project is to create an AI-driven chatbot that can
 - Generate Insights: Provide insights and interpretations of the data that are useful for strategic decision-making.
 - Interactive Communication: Offer an interactive platform for users to query financial information and receive understandable, detailed responses.
 
-
 ## Project Components
 1. Data Extraction and Preparation
-Document Parsing: Utilize natural language processing (NLP) techniques to parse and extract relevant sections from 10-K and 10-Q documents.
-Data Cleaning: Ensure the extracted data is clean, structured, and ready for analysis. This involves handling missing values, normalizing data formats, and removing redundancies.
+- Document Parsing: Utilize natural language processing (NLP) techniques to parse and extract relevant sections from 10-K and 10-Q documents.
+- Data Cleaning: Ensure the extracted data is clean, structured, and ready for analysis. This involves handling missing values, normalizing data formats, and removing redundancies.
 2. Data Analysis
-Trend Analysis: Apply statistical and machine learning methods to identify trends in financial metrics over time.
-Anomaly Detection: Detect any anomalies or unusual patterns that may indicate financial irregularities or areas requiring further investigation.
+- Trend Analysis: Apply statistical and machine learning methods to identify trends in financial metrics over time.
+- Anomaly Detection: Detect any anomalies or unusual patterns that may indicate financial irregularities or areas requiring further investigation.
 3. AI-Driven Insights
-Predictive Analytics: Implement models to forecast future financial performance based on historical data.
-Sentiment Analysis: Analyze the sentiment of qualitative sections of the reports (e.g., management discussions) to gauge the overall tone and potential implications for the company's future.
+- Predictive Analytics: Implement models to forecast future financial performance based on historical data.
+- Sentiment Analysis: Analyze the sentiment of qualitative sections of the reports (e.g., management discussions) to gauge the overall tone and potential implications for the company's future.
 4. Chatbot Development
-Natural Language Understanding (NLU): Develop the chatbot's ability to understand and interpret user queries about financial data.
-Response Generation: Generate clear and concise responses, offering explanations, insights, and actionable recommendations based on the analyzed data.
-User Interaction: Design an intuitive user interface that allows seamless interaction with the chatbot.
+- Natural Language Understanding (NLU): Develop the chatbot's ability to understand and interpret user queries about financial data.
+- Response Generation: Generate clear and concise responses, offering explanations, insights, and actionable recommendations based on the analyzed data.
+- User Interaction: Design an intuitive user interface that allows seamless interaction with the chatbot.
 
 ## Specific Project Requirements and Outcomes
 - Efficiency: Significantly reduce the time taken to analyze financial documents compared to traditional methods.
@@ -50,3 +49,17 @@ Launch the chatbot interface and interact with it to query financial information
 Customizing:
 Modify the configuration files to adjust the parameters for data extraction and analysis.
 Extend the chatbot's knowledge base by adding new financial documents or adjusting the NLP models for improved accuracy.
+
+## Task 1
+1. Data extraction:
+- Research and review 10-K documents.
+- Focus on key financial figures and ratios.
+2. Basic analysis:
+- Identify significant financial trends and indicators.
+- Assess the financial health and performance of the companies.
+3. Data preparation:
+- Format and clean the data for AI model integration.
+4. Deliverable:
+A comprehensive data analysis report, which should include:
+- my findings
+- a summary providing insights into the financial health of the analyzed companies.
