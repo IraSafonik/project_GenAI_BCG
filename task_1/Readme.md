@@ -24,3 +24,21 @@ python
 Копіювати код
 df = pd.read_csv('path_to_your_csv_file.csv')
 Analyze Trends:
+
+Calculated year-over-year percentage changes for financial metrics:
+python
+Копіювати код
+df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
+df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
+Summarize Findings:
+
+Used markdown cells to document the analysis, trends, and insights.
+Step 4: Documentation and Submission
+Document Analysis:
+
+Used markdown in Jupyter to document methodology, observations, and conclusions.
+Export Notebook:
+
+Exported the notebook as a PDF or HTML file:
+From the "File" menu, selected "Download as" and chose the preferred format.
+This process allowed me to focus on core analytical aspects using pandas within Jupyter, providing a clear narrative of the financial analysis. This experience enhanced my skills in programmatic financial data analysis, essential for data-driven decision-making.
