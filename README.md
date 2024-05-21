@@ -40,21 +40,6 @@ The primary objective of this project is to create an AI-driven chatbot that can
 - Streamlit (UI/UX)
 - Cloud Services (AWS/GCP)
 
-## How to Use
-Setup:
-Clone this repository.
-Install the required dependencies using pip install -r requirements.txt.
-Obtain API keys for any third-party services used (e.g., NLP libraries, sentiment analysis tools).
-
-Running the Application:
-Run the data extraction script to process the financial documents.
-Execute the data analysis module to generate insights and trends.
-Launch the chatbot interface and interact with it to query financial information.
-
-Customizing:
-Modify the configuration files to adjust the parameters for data extraction and analysis.
-Extend the chatbot's knowledge base by adding new financial documents or adjusting the NLP models for improved accuracy.
-
 ## Task 1
 1. Data extraction:
 - Research and review 10-K documents.
@@ -106,3 +91,54 @@ A comprehensive data analysis report, which should include:
 
 ### Key Takeaways:
 Preparing and preprocessing data is crucial for successfully applying AI in finance. Ensuring that the data fed into AI models is clean, consistent, and well-structured maximizes the model's ability to learn, make accurate predictions, and provide valuable insights. This stage involves both technical execution and understanding the financial context and relevance of the data being processed. By mastering these skills, financial data can be effectively prepared and preprocessed, making it ready for AI-driven applications.
+
+## Task 2
+- Develop an AI chatbot that can analyze financial data and provide insights.
+- Integrate the previously extracted and analyzed data into the chatbot system.
+- Test the chatbot to ensure it can effectively communicate financial performance insights and comparisons.
+
+# Project Execution Overview
+
+## Principles of AI Chatbot Development
+
+### Rule-based Logic
+Start with rule-based responses using "if-then" logic to handle frequently asked questions about financial data.
+
+### State Management
+Maintain the conversation context to provide relevant and personalized responses.
+
+### Error Handling
+Ensure the chatbot gracefully handles unrecognized queries and guides users to appropriate questions.
+
+## Integrating Financial Data
+
+### Data Structuring
+Organize financial data in JSON or CSV formats for easy access and interpretation.
+
+### Retrieval Methods
+Implement methods to fetch the right data based on user queries, such as net income or revenue.
+
+### Predefined Data Points
+Map specific queries to predefined data points for straightforward data fetching and presentation.
+
+## Communicating Financial Insights
+
+### Simplification and Summarization
+Use clear, jargon-free language to simplify and summarize financial insights.
+
+### Interactive Dialogue Design
+Design dialogues to be interactive, encouraging exploration and follow-up questions.
+
+### Visual Aids
+Describe potential data visualizations, such as charts or graphs, to help users understand complex data.
+
+## Ready to Develop
+
+### Team Roles
+- **My Focus:** Implement rule-based logic for initial query responses.
+- **NLP Experts:** Enhance language understanding.
+- **Machine Learning Engineers:** Incorporate learning algorithms for improved responses.
+- **Data Integration Specialists:** Ensure real-time data access.
+- **UX Designers:** Create intuitive and user-friendly interfaces.
+
+By following these principles and collaborating with my team, I'll develop a chatbot that effectively communicates financial data, enhancing user understanding and decision-making.
