@@ -8,12 +8,17 @@ The task involves manually extracting key financial data for the last three fisc
 
 1. **Access SEC's EDGAR Database:**
    - Locate 10-K filings for Microsoft, Tesla, and Apple for the last three fiscal years.
+<img width="798" alt="Знімок екрана 2024-05-21 о 15 56 42" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/bacfa449-bf84-4d7a-b22f-4f5ed68b3812">
+<img width="1380" alt="Знімок екрана 2024-05-21 о 15 45 00" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/82a2c2c8-8398-47c2-ac24-55bdcc7d3cb0">
+<img width="1341" alt="Знімок екрана 2024-05-21 о 15 43 22" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/761b078e-57ca-4580-a3aa-dec63e5772e7">
+The financial statements have been extracted from SEC'S EDGARS Database: https://www.sec.gov/edgar/searchedgar/cik
 
 2. **Manual Extraction:**
-   - Extract total revenue, net income, total assets, total liabilities, and cash flow from operating activities for each company.
-
+   - Extract total revenue, net income, total assets, total liabilities, and cash flow from operating activities for each company:
+     
 3. **Organize Data:**
    - Compile the extracted data into an Excel spreadsheet.
+<img width="874" alt="Знімок екрана 2024-05-21 о 15 58 45" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/ec5321dc-a50e-4186-830d-c82b11db5749">
 
 ## Step 2: Preparing the Jupyter Notebook Environment
 
