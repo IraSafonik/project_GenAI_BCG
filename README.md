@@ -97,44 +97,35 @@ Preparing and preprocessing data is crucial for successfully applying AI in fina
 - Integrate the previously extracted and analyzed data into the chatbot system.
 - Test the chatbot to ensure it can effectively communicate financial performance insights and comparisons.
 
-## Project Execution Overview
+### Project Execution Overview
 
-## Principles of AI Chatbot Development
-
-### Rule-based Logic
+#### Principles of AI Chatbot Development
+- **Rule-based Logic**
 Start with rule-based responses using "if-then" logic to handle frequently asked questions about financial data.
-
-### State Management
+- **State Management**
 Maintain the conversation context to provide relevant and personalized responses.
-
-### Error Handling
+- **Error Handling**
 Ensure the chatbot gracefully handles unrecognized queries and guides users to appropriate questions.
 
-## Integrating Financial Data
-
-### Data Structuring
+#### Integrating Financial Data
+- **Data Structuring**
 Organize financial data in JSON or CSV formats for easy access and interpretation.
-
-### Retrieval Methods
+- **Retrieval Methods**
 Implement methods to fetch the right data based on user queries, such as net income or revenue.
-
-### Predefined Data Points
+- **Predefined Data Points**
 Map specific queries to predefined data points for straightforward data fetching and presentation.
 
-## Communicating Financial Insights
-
-### Simplification and Summarization
+#### Communicating Financial Insights
+- **Simplification and Summarization**
 Use clear, jargon-free language to simplify and summarize financial insights.
-
-### Interactive Dialogue Design
+- **Interactive Dialogue Design**
 Design dialogues to be interactive, encouraging exploration and follow-up questions.
-
-### Visual Aids
+- **Visual Aids**
 Describe potential data visualizations, such as charts or graphs, to help users understand complex data.
 
-## Ready to Develop
+### Ready to Develop
 
-### Team Roles
+#### Team Roles
 - **My Focus:** Implement rule-based logic for initial query responses.
 - **NLP Experts:** Enhance language understanding.
 - **Machine Learning Engineers:** Incorporate learning algorithms for improved responses.
