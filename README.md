@@ -97,7 +97,7 @@ Preparing and preprocessing data is crucial for successfully applying AI in fina
 - Integrate the previously extracted and analyzed data into the chatbot system.
 - Test the chatbot to ensure it can effectively communicate financial performance insights and comparisons.
 
-# Project Execution Overview
+## Project Execution Overview
 
 ## Principles of AI Chatbot Development
 
