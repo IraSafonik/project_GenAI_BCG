@@ -1,44 +1,68 @@
-## Task Instructions and Execution
+# Task Instructions and Execution
 
-### Task Overview
-The task involved manually extracting key financial data for the last three fiscal years from the 10-K filings of Microsoft, Tesla, and Apple. After data collection, I analyzed this data using Python to identify trends and insights for developing an AI-powered financial chatbot.
+## Task Overview
 
-### Step 1: Data Extraction
-1. Access SEC's EDGAR Database:
-- Located 10-K filings for Microsoft, Tesla, and Apple for the last three fiscal years.
-2. Manual Extraction:
-- Extracted total revenue, net income, total assets, total liabilities, and cash flow from operating activities for each company.
-3. Organize Data:
-- Compiled the extracted data into an Excel spreadsheet.
+The task involves manually extracting key financial data for the last three fiscal years from the 10-K filings of Microsoft, Tesla, and Apple. After data collection, the analysis is performed using Python to identify trends and insights for developing an AI-powered financial chatbot.
 
-### Step 2: Preparing the Jupyter Notebook Environment
-- Install and Launch Jupyter:
-- Created a new notebook in Jupyter for the analysis.
+## Step 1: Data Extraction
 
-### Step 3: Python Analysis in Jupyter
-- Imported the pandas library:
-import pandas as pd
-- Load Data:
-Converted the Excel file to CSV and loaded it into a pandas DataFrame:
-python
-Копіювати код
-df = pd.read_csv('path_to_your_csv_file.csv')
-Analyze Trends:
+1. **Access SEC's EDGAR Database:**
+   - Locate 10-K filings for Microsoft, Tesla, and Apple for the last three fiscal years.
 
-Calculated year-over-year percentage changes for financial metrics:
-python
-Копіювати код
-df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
-df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
-Summarize Findings:
+2. **Manual Extraction:**
+   - Extract total revenue, net income, total assets, total liabilities, and cash flow from operating activities for each company.
 
-Used markdown cells to document the analysis, trends, and insights.
-Step 4: Documentation and Submission
-Document Analysis:
+3. **Organize Data:**
+   - Compile the extracted data into an Excel spreadsheet.
 
-Used markdown in Jupyter to document methodology, observations, and conclusions.
-Export Notebook:
+## Step 2: Preparing the Jupyter Notebook Environment
 
-Exported the notebook as a PDF or HTML file:
-From the "File" menu, selected "Download as" and chose the preferred format.
-This process allowed me to focus on core analytical aspects using pandas within Jupyter, providing a clear narrative of the financial analysis. This experience enhanced my skills in programmatic financial data analysis, essential for data-driven decision-making.
+1. **Install and Launch Jupyter:**
+   - Install Jupyter using pip:
+     ```bash
+     pip install notebook
+     ```
+   - Launch Jupyter Notebook:
+     ```bash
+     jupyter notebook
+     ```
+
+2. **Create a New Notebook:**
+   - Create a new notebook in Jupyter for the analysis.
+
+## Step 3: Python Analysis in Jupyter
+
+1. **Import Pandas:**
+   - Import the pandas library:
+     ```python
+     import pandas as pd
+     ```
+
+2. **Load Data:**
+   - Convert the Excel file to CSV and load it into a pandas DataFrame:
+     ```python
+     df = pd.read_csv('path_to_csv_file.csv')
+     ```
+
+3. **Analyze Trends:**
+   - Calculate year-over-year percentage changes for financial metrics:
+     ```python
+     df['Revenue Growth (%)'] = df.groupby(['Company'])['Total Revenue'].pct_change() * 100
+     df['Net Income Growth (%)'] = df.groupby(['Company'])['Net Income'].pct_change() * 100
+     ```
+
+4. **Summarize Findings:**
+   - Use markdown cells to document the analysis, trends, and insights.
+
+## Step 4: Documentation and Submission
+
+1. **Document Analysis:**
+   - Use markdown in Jupyter to document methodology, observations, and conclusions.
+
+2. **Export Notebook:**
+   - Export the notebook as a PDF or HTML file:
+     - From the "File" menu, select "Download as" and choose the preferred format.
+
+---
+
+This process allows for a focused approach to analyzing financial data using pandas within Jupyter, providing a clear narrative of the financial analysis. This experience enhances skills in programmatic financial data analysis, essential for data-driven decision-making.
