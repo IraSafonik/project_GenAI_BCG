@@ -1,3 +1,5 @@
+<img width="731" alt="Знімок екрана 2024-06-01 о 12 48 46" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/419e89a8-3b02-46fb-85b2-09d051cc1c7f">
+
 # Project: AI-Powered Financial Chatbot from Boston Consulting Group (BCG)
 
 ## Project Overview
