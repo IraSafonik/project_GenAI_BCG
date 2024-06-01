@@ -38,9 +38,11 @@ The primary objective of this project is to create an AI-driven chatbot that can
 - Scalability: Ensure the solution can handle an increasing number of documents and user queries.
 
 ## Technologies Used
-- Python (NumPy, Pandas, scikit-learn, PyTorch, Hugging Face)
-- Streamlit (UI/UX)
-- Cloud Services (AWS/GCP)
+- Python (Pandas)
+- Natural Language Processing (NLP)
+- Machine Learning Models
+- Chatbot Development Frameworks (e.g., TensorFlow, PyTorch)
+- Integrated Development Environments (IDEs) (e.g., Jupyter Notebook, VS Code)
 
 ## Task 1
 1. Data extraction:
