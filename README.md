@@ -139,3 +139,8 @@ By following these principles and collaborating with my team, I'll develop a cha
 <img width="589" alt="Знімок екрана 2024-06-01 о 12 07 53" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/dc7832f9-0258-46f3-8af7-504bb21f8dc3">
 <img width="566" alt="Знімок екрана 2024-06-01 о 12 08 02" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/29be5462-8a21-46f7-8298-4187d775fb04">
 <img width="625" alt="Знімок екрана 2024-06-01 о 12 08 10" src="https://github.com/IraSafonik/project_GenAI_BCG/assets/32171563/affba0f6-3ddf-4491-a410-9143912821d6">
+
+### Skill gained after completing this project - BCG GenAI Job Simulation on Forage - Jun 2024.
+- Completed a job simulation involving AI-powered financial chatbot development for BCG's GenAI Consulting team.
+- Gained experience in Python programming, including the use of libraries such as pandas for data manipulation.
+- Integrated and interpreted complex financial data from 10-K and 10-Q reports, employing rule-based logic to create a chatbot that provides user-friendly financial insights and analysis.
